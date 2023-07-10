@@ -7,8 +7,14 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import logo from '../assets/logo.png'
+import menu from '../assets/menu.svg';
+import close from '../assets/close.svg'
 
 export {
+  close,
+  menu,
+  logo,
   Hero,
   Navbar,
   About,

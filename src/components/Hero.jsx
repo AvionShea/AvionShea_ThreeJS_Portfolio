@@ -5,7 +5,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section>Hero</section>
+    <section className={`relative w-full h-screen mx-auto`}>Hero</section>
   )
 }
 

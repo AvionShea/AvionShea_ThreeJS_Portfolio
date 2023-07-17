@@ -30,6 +30,17 @@ const Computers = () => {
 }
 
 const ComputersCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // looks for changes in window size
+    const mediaQuery = window.matchMedia("(max-width: 500)");
+
+    setIsMobile(mediaQuery.matches);
+
+
+  }, [third])
+
   return(
     <Canvas frameLoop='demand' 
     shadows 

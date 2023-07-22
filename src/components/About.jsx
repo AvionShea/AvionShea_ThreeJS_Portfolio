@@ -9,7 +9,12 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+    <motion.div>
+      <p>Introduction</p>
+      <h2>Overview</h2>
+    </motion.div>
+    </>
   )
 }
 

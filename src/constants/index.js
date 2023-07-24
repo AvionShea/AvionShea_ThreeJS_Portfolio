@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -99,14 +98,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({title, Icon, index}) => {
   return (
-    <p>{title}</p>
+    <Tilt>{title}</Tilt>
   )
 }
 

@@ -52,6 +52,9 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
+    {
+      title: "Applications Developer",
+    },
   ];
   
   const technologies = [

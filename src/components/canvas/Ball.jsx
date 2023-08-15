@@ -6,10 +6,29 @@ import {
 
 import CanvasLoader from '../Loader'
 
-const Ball = () => {
+const Ball = (props) => {
+  const [decal] = useTexture([props.imgUrl])
   return (
-    <div>Ball</div>
+    <Float>
+      <ambientLight intensity={0.25}/>
+    </Float>
   )
 }
 
-export default Ball
+const BallCanvas = ({icon}) => {
+  return (
+    <Canvas frameLoop='demand'
+    gl={{ preserveDrawingBuffer: true }}>
+      <Suspense fallback={<CanvasLoader/>}>
+        <OrbitControls 
+        enableZoom={false}/>
+        <Ball imgUrl={icon}/>
+      </Suspense>
+
+      <Preload all/>
+
+    </Canvas>
+  )
+}
+
+export default BallCanvas

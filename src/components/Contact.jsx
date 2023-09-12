@@ -26,7 +26,17 @@ const Contact = () => {
     e.preventDefault()
     setLoading(true)
 
-    emailjs.send()
+    emailjs.send(
+      'service_e4joj08', 
+      'template_zd75534',
+      {
+        from_name: form.name,
+        to_name: "Avion",
+        from_email: form.email,
+        to_email: 'avion_cobb@yahoo.com',
+        message: form.message,
+      }
+      )
   }
 
   return (

@@ -35,8 +35,20 @@ const Contact = () => {
         from_email: form.email,
         to_email: 'avion_cobb@yahoo.com',
         message: form.message,
-      }
+      },
       )
+
+      .then(() => {
+        setLoading(false)
+        alert("Thank you! Your message has been sent.")
+        
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+
+      } )
   }
 
   return (

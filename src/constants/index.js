@@ -46,11 +46,17 @@ import {
       icon: mobile,
     },
     {
+      title: "Frontend Developer",
+    },
+    {
       title: "Backend Developer",
       icon: backend,
     },
     {
       title: "Applications Developer",
+    },
+    {
+      title: "UX/UI Designer",
     },
   ];
   

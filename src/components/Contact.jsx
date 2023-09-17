@@ -36,6 +36,7 @@ const Contact = () => {
         to_email: 'avion_cobb@yahoo.com',
         message: form.message,
       },
+      // place public key here
       )
 
       .then(() => {

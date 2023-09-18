@@ -31,7 +31,7 @@ const Contact = () => {
       'template_zd75534',
       {
         from_name: form.name,
-        to_name: "Avion",
+        to_name: "Avion C.",
         from_email: form.email,
         to_email: 'avion_cobb@yahoo.com',
         message: form.message,

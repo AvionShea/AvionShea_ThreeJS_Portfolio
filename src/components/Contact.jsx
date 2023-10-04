@@ -27,13 +27,13 @@ const Contact = () => {
     setLoading(true)
 
     emailjs.send(
-      'service_e4joj08', 
-      'template_zd75534',
+      '// place service ID', 
+      '// place template ID',
       {
         from_name: form.name,
-        to_name: "Avion C.",
+        to_name: " // place name",
         from_email: form.email,
-        to_email: 'avion_cobb@yahoo.com',
+        to_email: '// place personal email',
         message: form.message,
       },
       // place public key here

@@ -31,7 +31,7 @@ const Contact = () => {
       '// place template ID',
       {
         from_name: form.name,
-        to_name: " // place name",
+        to_name: '// place name',
         from_email: form.email,
         to_email: '// place personal email',
         message: form.message,

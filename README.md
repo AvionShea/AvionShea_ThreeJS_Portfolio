@@ -11,6 +11,21 @@ An interactive and immersive developer portfolio utilizing 3D libraries and impl
 - [Links](#links)
 - [Author](#author)
 
+## Screenshot
+
+![](src/assets/portfolio_screenshot.PNG)
+
+## Built with
+
+- HTML
+- Tailwind CSS
+- React.js
+- React Three Fiber
+- React Three Drei
+- Three.js
+- Email JS
+- Vite
+
 ## Getting Started
 
 **Installation**
@@ -45,20 +60,6 @@ Open [http://localhost:5174/](http://localhost:5174/) to view it in your browser
 
 Ends server
 
-## Screenshot
-
-![](src/assets/portfolio_screenshot.PNG)
-
-## Built with
-
-- HTML
-- Tailwind CSS
-- React.js
-- React Three Fiber
-- React Three Drei
-- Three.js
-- Email JS
-- Vite
 
 ## Links
 

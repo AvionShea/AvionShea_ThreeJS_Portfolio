@@ -63,7 +63,7 @@ Ends server
 
 ## Links
 
-Tutorial: [Beginner Three.js Tutorial](https://www.youtube.com/watch?v=0fYi8SGA20k
+Tutorial: [Beginner Three.js Tutorial](https://www.youtube.com/watch?v=0fYi8SGA20k)
 
 YouTube Channel: [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)
 
